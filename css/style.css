@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+body {
+    height: 1700px;
+}
+
 .navbar {
     background: #202B41;
     width: 100%;
@@ -13,7 +17,7 @@
     font-size: 30px;
     position: relative;
     left: 20%;
-    color: #fff;
+    color: #fff; 
 }
 
 .navbar ul {
@@ -90,4 +94,48 @@
     outline: unset; 
     margin-top: 10px;
     color: rgb(223, 219, 29)
+}
+
+/*  end navbar  */
+
+.sher {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.start-icon {
+    padding: 5%;
+    
+}
+
+.start-icon  i {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    color: #d2d53e;
+}
+
+.start-icon p {
+    color: #0f0f0fab;
+}
+
+.class-sher {
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+
+.class-sher i {
+    color: #393e5194;
+    width: 100%;
+    font-size: 70px;
+    padding: 10px;
+
+}
+
+
+.class-sher p {
+    color: #0f0f0f6b
 }
